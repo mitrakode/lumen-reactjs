@@ -1,0 +1,31 @@
+{
+  "name": "lumen-reactjs",
+  "version": "1.0.0",
+  "description": "Lumen (Laravel Micro Framework) + ReactJS",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --progress --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erisitohang/lumen-reactjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erisitohang/lumen-reactjs/issues"
+  },
+  "homepage": "https://github.com/erisitohang/lumen-reactjs#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
+}
