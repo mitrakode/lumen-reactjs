@@ -1,4 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 require('./main.css')
-var element = document.createElement('h1');
-element.innerHTML = 'Hello world';
-document.body.appendChild(element);
+
+const Index = () => {
+    return <div>Hello Lumen & React!</div>;
+};
+
+ReactDOM.render(<Index />, document.getElementById("app"));
